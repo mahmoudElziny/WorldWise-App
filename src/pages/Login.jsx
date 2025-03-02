@@ -3,7 +3,6 @@ import styles from "./Login.module.css";
 import PageNav from "../components/PageNav";
 import Button from "../components/Button";
 import { useAuth } from "../contexts/FakeAuthContext";
-import { isCursorAtEnd } from "@testing-library/user-event/dist/utils";
 import { useNavigate } from "react-router-dom";
 
 export default function Login() {
